@@ -1,0 +1,18 @@
+{% load static %}
+
+<html>
+	<head>
+		<title>The Cheese Maker</title>
+	</head>
+	<body>
+		<h1>Let's get the current temperature readings</h1>
+		<div id="mTemp">Temperature Sensor 1: {{ mTemp }}</div>
+			<br/>
+			Temperature Sensor 2: 
+		</p>
+	</body>
+</html>
+
+<script type="text/javascript" src="{% static "vendors/jquery-3.3.1.js" %}"></script>
+<!--<script src="//d3js.org/d3.v3.min.js"></script> -->
+<script type="text/javascript" src="{% static "js/temperature.js" %}"></script>
